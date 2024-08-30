@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://cpmhbm8c3ss7u"]
+
+[ext_resource type="Texture2D" uid="uid://byes4iv0gbpap" path="res://Textures/M_Dome_2_0_BaseColor.png" id="1_wn7g8"]
+[ext_resource type="Texture2D" uid="uid://cc7ile3hywn2s" path="res://Textures/M_Dome_2_0_Specular.png" id="2_nykka"]
+[ext_resource type="Texture2D" uid="uid://be2hshcm0o6ot" path="res://Textures/M_Dome_2_0_Normal.png" id="3_ipnwi"]
+
+[resource]
+resource_name = "M_Dome_2"
+albedo_texture = ExtResource("1_wn7g8")
+metallic = 1.0
+metallic_texture = ExtResource("2_nykka")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_nykka")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_ipnwi")

@@ -1,0 +1,14 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://d2s1dqyxrahvb"]
+
+[ext_resource type="Texture2D" path="res://testing/Textures/M_StoneCeiling_Inst_0_BaseColor.dds" id="1_rpoer"]
+[ext_resource type="Texture2D" path="res://testing/Textures/M_StoneCeiling_Inst_0_Normal.dds" id="2_whorq"]
+
+[resource]
+resource_name = "M_StoneCeiling_Inst"
+vertex_color_use_as_albedo = true
+albedo_color = Color(1, 1, 1, 1)
+albedo_texture = ExtResource("1_rpoer")
+emission_enabled = true
+normal_enabled = true
+normal_scale = 0.0
+normal_texture = ExtResource("2_whorq")

@@ -1,0 +1,14 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://784la8vi2tnf"]
+
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_Soul_Rocks2_Inst_12_BaseColor.dds" id="1_0sayr"]
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_Soul_Rocks2_Inst_12_Normal.dds" id="2_cifr4"]
+
+[resource]
+resource_name = "M_Soul_Rocks2_Inst"
+vertex_color_use_as_albedo = true
+albedo_color = Color(1, 1, 1, 1)
+albedo_texture = ExtResource("1_0sayr")
+emission_enabled = true
+normal_enabled = true
+normal_scale = 0.0
+normal_texture = ExtResource("2_cifr4")

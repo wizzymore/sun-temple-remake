@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://ytv78ku8rmxj"]
+
+[ext_resource type="Texture2D" uid="uid://buk6ojkf2rgqk" path="res://Textures/M_Shield_Inst_0_BaseColor.png" id="1_634wk"]
+[ext_resource type="Texture2D" uid="uid://cnef8pa3rgjdb" path="res://Textures/M_Shield_Inst_0_Specular.png" id="2_8uh5e"]
+[ext_resource type="Texture2D" uid="uid://lq75pjl1dd7i" path="res://Textures/M_Shield_Inst_0_Normal.png" id="3_c6082"]
+
+[resource]
+resource_name = "M_Shield_Inst"
+albedo_texture = ExtResource("1_634wk")
+metallic = 1.0
+metallic_texture = ExtResource("2_8uh5e")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_8uh5e")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_c6082")
+rim_tint = 1.0
+grow_amount = -16.0

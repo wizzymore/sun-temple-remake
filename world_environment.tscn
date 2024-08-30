@@ -1,0 +1,51 @@
+[gd_scene load_steps=6 format=3 uid="uid://ctd48rgi46e2j"]
+
+[ext_resource type="Texture2D" uid="uid://dte3ov2gvgybi" path="res://SunTemple/SunTemple_Skybox.hdr" id="1_t23ug"]
+[ext_resource type="CameraAttributesPhysical" uid="uid://irjc0pptpe2n" path="res://SunTemple/CameraAttributesPhysical.tres" id="2_lqdp0"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_rlls5"]
+panorama = ExtResource("1_t23ug")
+
+[sub_resource type="Sky" id="Sky_r42x4"]
+sky_material = SubResource("PanoramaSkyMaterial_rlls5")
+
+[sub_resource type="Environment" id="Environment_nggmh"]
+background_mode = 2
+background_energy_multiplier = 2.0
+background_intensity = 100000.0
+sky = SubResource("Sky_r42x4")
+sky_rotation = Vector3(0, -1.37183, 0)
+ambient_light_source = 1
+reflected_light_source = 1
+tonemap_mode = 2
+ssr_enabled = true
+ssao_enabled = true
+sdfgi_use_occlusion = true
+sdfgi_read_sky_light = false
+sdfgi_cascades = 8
+sdfgi_min_cell_size = 0.305176
+sdfgi_cascade0_distance = 19.5313
+sdfgi_max_distance = 5000.0
+sdfgi_y_scale = 2
+glow_enabled = true
+glow_normalized = true
+glow_bloom = 0.14
+fog_light_color = Color(1, 0.764706, 0.576471, 1)
+fog_sun_scatter = 3.37
+fog_density = 0.001
+fog_sky_affect = 0.0
+fog_height = 100.0
+fog_height_density = -16.0
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.06
+volumetric_fog_anisotropy = 0.48
+volumetric_fog_length = 25.0
+volumetric_fog_detail_spread = 1.66435
+volumetric_fog_sky_affect = 0.25
+adjustment_enabled = true
+adjustment_brightness = 0.8
+adjustment_contrast = 1.01
+
+[node name="WorldEnvironment" type="WorldEnvironment"]
+environment = SubResource("Environment_nggmh")
+camera_attributes = ExtResource("2_lqdp0")

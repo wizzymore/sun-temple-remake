@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://cvb5pynnhkluj"]
+
+[ext_resource type="Texture2D" uid="uid://b2xgyjv2cjreq" path="res://Textures/M_Trim_Inst_Inst_0_BaseColor.png" id="1_khf1y"]
+[ext_resource type="Texture2D" uid="uid://cgbh7qgk1u3w7" path="res://Textures/M_Trim_Inst_Inst_0_Specular.png" id="2_ww6w6"]
+[ext_resource type="Texture2D" uid="uid://tlbnxjsici1e" path="res://Textures/M_Trim_Inst_Inst_0_Normal.png" id="3_guf5l"]
+
+[resource]
+resource_name = "M_Trim_Inst_Inst"
+albedo_texture = ExtResource("1_khf1y")
+metallic = 1.0
+metallic_texture = ExtResource("2_ww6w6")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_ww6w6")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_guf5l")

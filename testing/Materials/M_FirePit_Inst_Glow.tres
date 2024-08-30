@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://qd0bwlbd8d75"]
+
+[ext_resource type="Texture2D" path="res://testing/Textures/M_FirePit_Inst_Glow_0_BaseColor.dds" id="1_rfs3h"]
+[ext_resource type="Texture2D" path="res://testing/Textures/M_FirePit_Inst_Glow_0_Emissive.dds" id="2_axr8x"]
+[ext_resource type="Texture2D" path="res://testing/Textures/M_FirePit_Inst_Glow_0_Normal.dds" id="3_pk1hp"]
+
+[resource]
+resource_name = "M_FirePit_Inst_Glow"
+vertex_color_use_as_albedo = true
+albedo_color = Color(1, 1, 1, 1)
+albedo_texture = ExtResource("1_rfs3h")
+emission_enabled = true
+emission_texture = ExtResource("2_axr8x")
+normal_enabled = true
+normal_scale = 0.0
+normal_texture = ExtResource("3_pk1hp")
