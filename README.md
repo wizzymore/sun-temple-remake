@@ -14,3 +14,6 @@ Screenshots:
 ![image](https://github.com/user-attachments/assets/46521b62-84a1-481f-85c8-aa857d117991)
 Bugged reflection probe:
 ![image](https://github.com/user-attachments/assets/568a1e74-95f9-435e-922a-92ece2944abf)
+
+Performance:
+![image](https://github.com/user-attachments/assets/d16db61f-84f4-4112-9301-8c39ea60a4ea)
