@@ -57,6 +57,10 @@ light_bake_mode = 2
 light_intensity_lumens = 50000.0
 light_bake_mode = 2
 
+[node name="ReflectionProbe2" parent="Node3D/ReflectionProbes" index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.036638, 8.24985, 29.2786)
+size = Vector3(20, 16.3018, 17.4622)
+
 [node name="ReflectionProbe6" parent="Node3D/ReflectionProbes" index="5"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00137687, 5.42658, 55.2749)
 size = Vector3(10.9709, 10.4995, 33.9733)
