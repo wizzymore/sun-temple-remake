@@ -71,7 +71,7 @@ _subresources={
 },
 "M_FirePit_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_FirePit_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_FirePit_Inst.tres"
 },
 "M_FirePit_Inst_Glow": {
 "use_external/enabled": true,
@@ -79,7 +79,7 @@ _subresources={
 },
 "M_FirePit_Inst_nofire": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_FirePit_Inst_nofire.tres"
+"use_external/path": "res://SunTemple/0Materials/M_FirePit_Inst_nofire.tres"
 },
 "M_FloorTiles1_Inst": {
 "use_external/enabled": true,

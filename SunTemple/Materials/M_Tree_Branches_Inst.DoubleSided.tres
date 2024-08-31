@@ -1,21 +1,11 @@
-[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://drokab5fgdwud"]
-
-[ext_resource type="Texture2D" uid="uid://bcm57ov4gijgg" path="res://Textures/M_Tree_Branches_Inst_0_BaseColor.png" id="1_kll2l"]
-[ext_resource type="Texture2D" uid="uid://s7yw5qpq0cel" path="res://Textures/M_Tree_Branches_Inst_0_Emissive.png" id="2_rau8f"]
-[ext_resource type="Texture2D" uid="uid://bo0q2hl6gc1f8" path="res://Textures/M_Tree_Branches_Inst_0_Specular.png" id="3_ea87c"]
-[ext_resource type="Texture2D" uid="uid://rnjlwk0ogro8" path="res://Textures/M_Tree_Branches_Inst_0_Normal.png" id="4_h11hm"]
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://drokab5fgdwud"]
 
 [resource]
 resource_name = "M_Tree_Branches_Inst.DoubleSided"
 transparency = 1
 cull_mode = 2
-albedo_texture = ExtResource("1_kll2l")
 metallic = 1.0
-metallic_texture = ExtResource("3_ea87c")
 metallic_texture_channel = 2
-roughness_texture = ExtResource("3_ea87c")
 roughness_texture_channel = 1
 emission_enabled = true
-emission_texture = ExtResource("2_rau8f")
 normal_enabled = true
-normal_texture = ExtResource("4_h11hm")

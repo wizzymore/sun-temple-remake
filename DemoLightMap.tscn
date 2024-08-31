@@ -50,20 +50,45 @@ light_intensity_lumens = 50000.0
 light_bake_mode = 2
 
 [node name="pointLight2" parent="Node3D/SunTemple/group1" index="10"]
-light_intensity_lumens = 50000.0
+light_intensity_lumens = 20000.0
 light_bake_mode = 2
 
 [node name="pointLight1" parent="Node3D/SunTemple/group1" index="11"]
-light_intensity_lumens = 50000.0
+light_intensity_lumens = 20000.0
 light_bake_mode = 2
 
-[node name="ReflectionProbe2" parent="Node3D/ReflectionProbes" index="1"]
+[node name="ReflectionProbe" parent="Node3D/ReflectionProbes" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.150543, 7.13919, 8.59294)
+size = Vector3(20.0678, 34.2784, 17.4034)
+ambient_mode = 1
+
+[node name="ReflectionProbe9" type="ReflectionProbe" parent="Node3D/ReflectionProbes" index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.150543, 7.13919, -3.48112)
+size = Vector3(20.0678, 34.2784, 25.0445)
+interior = true
+enable_shadows = true
+
+[node name="ReflectionProbe2" parent="Node3D/ReflectionProbes" index="2"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.036638, 8.24985, 29.2786)
 size = Vector3(20, 16.3018, 17.4622)
+ambient_mode = 1
 
-[node name="ReflectionProbe6" parent="Node3D/ReflectionProbes" index="5"]
+[node name="ReflectionProbe7" parent="Node3D/ReflectionProbes" index="3"]
+ambient_mode = 1
+
+[node name="ReflectionProbe8" parent="Node3D/ReflectionProbes" index="4"]
+ambient_mode = 1
+
+[node name="ReflectionProbe5" parent="Node3D/ReflectionProbes" index="5"]
+ambient_mode = 1
+
+[node name="ReflectionProbe6" parent="Node3D/ReflectionProbes" index="6"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00137687, 5.42658, 55.2749)
 size = Vector3(10.9709, 10.4995, 33.9733)
+ambient_mode = 1
+
+[node name="ReflectionProbe4" parent="Node3D/ReflectionProbes" index="8"]
+ambient_mode = 1
 
 [node name="LightmapGI" type="LightmapGI" parent="."]
 quality = 2

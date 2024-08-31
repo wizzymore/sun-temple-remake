@@ -1,0 +1,16 @@
+[gd_resource type="ShaderMaterial" load_steps=6 format=3 uid="uid://cgwnfefjpi3ix"]
+
+[ext_resource type="Shader" uid="uid://dh6ot6jfmujre" path="res://SunTemple/ShaderMaterialVisual.tres" id="1_meniv"]
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_FirePit_Inst_0_BaseColor.dds" id="2_sso3w"]
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_FirePit_Inst_0_Emissive.dds" id="3_u3mx2"]
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_FirePit_Inst_0_Normal.dds" id="4_sihtr"]
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_FirePit_Inst_0_Specular.dds" id="5_4owsc"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_meniv")
+shader_parameter/EmissionIntensity = 1000.0
+shader_parameter/Albedo = ExtResource("2_sso3w")
+shader_parameter/SpecularMap = ExtResource("5_4owsc")
+shader_parameter/Emission = ExtResource("3_u3mx2")
+shader_parameter/Normal = ExtResource("4_sihtr")

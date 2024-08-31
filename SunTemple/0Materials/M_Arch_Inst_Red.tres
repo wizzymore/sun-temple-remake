@@ -1,6 +1,6 @@
 [gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://dwl587i0tmjhw"]
 
-[ext_resource type="Shader" uid="uid://dh6ot6jfmujre" path="res://test/ShaderMaterialVisual.tres" id="1_qmt8v"]
+[ext_resource type="Shader" uid="uid://dh6ot6jfmujre" path="res://SunTemple/ShaderMaterialVisual.tres" id="1_qmt8v"]
 [ext_resource type="Texture2D" path="res://SunTemple/Textures/M_Arch_Inst_Red_0_BaseColor.dds" id="2_0grdt"]
 [ext_resource type="Texture2D" path="res://SunTemple/Textures/M_Arch_Inst_Red_0_Normal.dds" id="3_hm5ea"]
 [ext_resource type="Texture2D" path="res://SunTemple/Textures/M_Arch_Inst_Red_0_Specular.dds" id="4_sejfc"]
@@ -8,6 +8,7 @@
 [resource]
 render_priority = 0
 shader = ExtResource("1_qmt8v")
+shader_parameter/EmissionIntensity = 10000.0
 shader_parameter/Albedo = ExtResource("2_0grdt")
 shader_parameter/SpecularMap = ExtResource("4_sejfc")
 shader_parameter/Normal = ExtResource("3_hm5ea")

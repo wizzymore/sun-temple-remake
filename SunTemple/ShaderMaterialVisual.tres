@@ -17,7 +17,7 @@ operator = 2
 [sub_resource type="VisualShaderNodeFloatParameter" id="VisualShaderNodeFloatParameter_2rjnb"]
 parameter_name = "EmissionIntensity"
 default_value_enabled = true
-default_value = 10000.0
+default_value = 1000.0
 
 [sub_resource type="VisualShaderNodeTexture2DParameter" id="VisualShaderNodeTexture2DParameter_df0ft"]
 parameter_name = "Albedo"
@@ -47,7 +47,7 @@ render_mode blend_mix, depth_draw_opaque, cull_back, diffuse_lambert, specular_s
 uniform sampler2D Albedo;
 uniform sampler2D SpecularMap;
 uniform sampler2D Emission : hint_default_black;
-uniform float EmissionIntensity = 10000;
+uniform float EmissionIntensity = 1000;
 uniform sampler2D Normal;
 
 
@@ -106,7 +106,7 @@ void fragment() {
 
 }
 "
-graph_offset = Vector2(-990.207, 1007.62)
+graph_offset = Vector2(-841.001, 870.071)
 flags/ambient_light_disabled = true
 nodes/fragment/0/position = Vector2(880, 140)
 nodes/fragment/2/node = SubResource("VisualShaderNodeTexture2DParameter_df0ft")
