@@ -1,0 +1,13 @@
+[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://wqq2gmv5uqwh"]
+
+[ext_resource type="Shader" uid="uid://dh6ot6jfmujre" path="res://test/ShaderMaterialVisual.tres" id="1_wsj5q"]
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_BottomTrim_Inst_Black_0_BaseColor.dds" id="2_vtx4f"]
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_BottomTrim_Inst_Black_0_Normal.dds" id="3_ho45c"]
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_BottomTrim_Inst_Black_0_Specular.dds" id="4_q4kra"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_wsj5q")
+shader_parameter/Albedo = ExtResource("2_vtx4f")
+shader_parameter/SpecularMap = ExtResource("4_q4kra")
+shader_parameter/Normal = ExtResource("3_ho45c")

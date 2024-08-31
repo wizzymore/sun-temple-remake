@@ -1,0 +1,13 @@
+[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://cab8wf81det4a"]
+
+[ext_resource type="Shader" uid="uid://dh6ot6jfmujre" path="res://test/ShaderMaterialVisual.tres" id="1_ihmsx"]
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_Railing_Inst_0_BaseColor.dds" id="2_ewi1f"]
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_Railing_Inst_0_Normal.dds" id="3_vrby6"]
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_Railing_Inst_0_Specular.dds" id="4_kcasq"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_ihmsx")
+shader_parameter/Albedo = ExtResource("2_ewi1f")
+shader_parameter/SpecularMap = ExtResource("4_kcasq")
+shader_parameter/Normal = ExtResource("3_vrby6")

@@ -1,0 +1,13 @@
+[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://cwvyh7u8d33o2"]
+
+[ext_resource type="Shader" uid="uid://dh6ot6jfmujre" path="res://test/ShaderMaterialVisual.tres" id="1_ios3v"]
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_FloorTiles2_Inst_REd_0_BaseColor.dds" id="2_tu30x"]
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_FloorTiles2_Inst_REd_0_Normal.dds" id="3_x0n0m"]
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_FloorTiles2_Inst_REd_0_Specular.dds" id="4_truag"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_ios3v")
+shader_parameter/Albedo = ExtResource("2_tu30x")
+shader_parameter/SpecularMap = ExtResource("4_truag")
+shader_parameter/Normal = ExtResource("3_x0n0m")

@@ -35,39 +35,39 @@ _subresources={
 "materials": {
 "M_Arch_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_Arch_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_Arch_Inst.tres"
 },
 "M_Arch_Inst_2": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_Arch_Inst_2.tres"
+"use_external/path": "res://SunTemple/0Materials/M_Arch_Inst_2.tres"
 },
 "M_Arch_Inst_Red": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_Arch_Inst_Red.tres"
+"use_external/path": "res://SunTemple/0Materials/M_Arch_Inst_Red.tres"
 },
 "M_Arch_Inst_Red_2": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_Arch_Inst_Red_2.tres"
+"use_external/path": "res://SunTemple/0Materials/M_Arch_Inst_Red_2.tres"
 },
 "M_BottomTrim_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_BottomTrim_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_BottomTrim_Inst.tres"
 },
 "M_BottomTrim_Inst_Black": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_BottomTrim_Inst_Black.tres"
+"use_external/path": "res://SunTemple/0Materials/M_BottomTrim_Inst_Black.tres"
 },
 "M_BottomTrim_Inst_UTile4": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_BottomTrim_Inst_UTile4.tres"
+"use_external/path": "res://SunTemple/0Materials/M_BottomTrim_Inst_UTile4.tres"
 },
 "M_Dome_2": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_Dome_2.tres"
+"use_external/path": "res://SunTemple/0Materials/M_Dome_2.tres"
 },
 "M_Dome_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_Dome_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_Dome_Inst.tres"
 },
 "M_FirePit_Inst": {
 "use_external/enabled": true,
@@ -75,7 +75,7 @@ _subresources={
 },
 "M_FirePit_Inst_Glow": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_FirePit_Inst_Glow.tres"
+"use_external/path": "res://SunTemple/0Materials/M_FirePit_Inst_Glow.tres"
 },
 "M_FirePit_Inst_nofire": {
 "use_external/enabled": true,
@@ -83,71 +83,71 @@ _subresources={
 },
 "M_FloorTiles1_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_FloorTiles1_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_FloorTiles1_Inst.tres"
 },
 "M_FloorTiles1_Inst_Blue": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_FloorTiles1_Inst_Blue.tres"
+"use_external/path": "res://SunTemple/0Materials/M_FloorTiles1_Inst_Blue.tres"
 },
 "M_FloorTiles1_Inst_Inst2": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_FloorTiles1_Inst_Inst2.tres"
+"use_external/path": "res://SunTemple/0Materials/M_FloorTiles1_Inst_Inst2.tres"
 },
 "M_FloorTiles2_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_FloorTiles2_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_FloorTiles2_Inst.tres"
 },
 "M_FloorTiles2_Inst_Inst_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_FloorTiles2_Inst_Inst_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_FloorTiles2_Inst_Inst_Inst.tres"
 },
 "M_FloorTiles2_Inst_REd": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_FloorTiles2_Inst_REd.tres"
+"use_external/path": "res://SunTemple/0Materials/M_FloorTiles2_Inst_REd.tres"
 },
 "M_Pillar_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_Pillar_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_Pillar_Inst.tres"
 },
 "M_Pillar_Inst_Colored": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_Pillar_Inst_Colored.tres"
+"use_external/path": "res://SunTemple/0Materials/M_Pillar_Inst_Colored.tres"
 },
 "M_Railing_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_Railing_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_Railing_Inst.tres"
 },
 "M_Rocks_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_Rocks_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_Rocks_Inst.tres"
 },
 "M_Shield_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_Shield_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_Shield_Inst.tres"
 },
 "M_Soul_Rocks2_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_Soul_Rocks2_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_Soul_Rocks2_Inst.tres"
 },
 "M_Stairs_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_Stairs_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_Stairs_Inst.tres"
 },
 "M_Statue_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_Statue_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_Statue_Inst.tres"
 },
 "M_StoneBrickWall_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_StoneBrickWall_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_StoneBrickWall_Inst.tres"
 },
 "M_StoneCeiling_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_StoneCeiling_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_StoneCeiling_Inst.tres"
 },
 "M_TreeTrunk01_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_TreeTrunk01_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_TreeTrunk01_Inst.tres"
 },
 "M_Tree_Branches.DoubleSided": {
 "use_external/enabled": true,
@@ -159,11 +159,11 @@ _subresources={
 },
 "M_Trim_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_Trim_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_Trim_Inst.tres"
 },
 "M_Trim_Inst_Inst": {
 "use_external/enabled": true,
-"use_external/path": "res://SunTemple/Materials/M_Trim_Inst_Inst.tres"
+"use_external/path": "res://SunTemple/0Materials/M_Trim_Inst_Inst.tres"
 },
 "Soul_Tree011M_Inst.DoubleSided": {
 "use_external/enabled": true,

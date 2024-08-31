@@ -9,10 +9,63 @@
 
 [node name="Node3D" parent="." instance=ExtResource("1_eojxr")]
 
+[node name="pointLight12" parent="Node3D/SunTemple/group1" index="0"]
+light_intensity_lumens = 50000.0
+light_bake_mode = 2
+
+[node name="pointLight11" parent="Node3D/SunTemple/group1" index="1"]
+light_intensity_lumens = 50000.0
+light_bake_mode = 2
+
+[node name="pointLight10" parent="Node3D/SunTemple/group1" index="2"]
+light_intensity_lumens = 50000.0
+light_bake_mode = 2
+
+[node name="pointLight9" parent="Node3D/SunTemple/group1" index="3"]
+light_intensity_lumens = 50000.0
+light_bake_mode = 2
+
+[node name="pointLight8" parent="Node3D/SunTemple/group1" index="4"]
+light_intensity_lumens = 50000.0
+light_bake_mode = 2
+
+[node name="pointLight7" parent="Node3D/SunTemple/group1" index="5"]
+light_intensity_lumens = 50000.0
+light_bake_mode = 2
+
+[node name="pointLight6" parent="Node3D/SunTemple/group1" index="6"]
+light_intensity_lumens = 50000.0
+light_bake_mode = 2
+
+[node name="pointLight5" parent="Node3D/SunTemple/group1" index="7"]
+light_intensity_lumens = 50000.0
+light_bake_mode = 2
+
+[node name="pointLight4" parent="Node3D/SunTemple/group1" index="8"]
+light_intensity_lumens = 50000.0
+light_bake_mode = 2
+
+[node name="pointLight3" parent="Node3D/SunTemple/group1" index="9"]
+light_intensity_lumens = 50000.0
+light_bake_mode = 2
+
+[node name="pointLight2" parent="Node3D/SunTemple/group1" index="10"]
+light_intensity_lumens = 50000.0
+light_bake_mode = 2
+
+[node name="pointLight1" parent="Node3D/SunTemple/group1" index="11"]
+light_intensity_lumens = 50000.0
+light_bake_mode = 2
+
+[node name="ReflectionProbe6" parent="Node3D/ReflectionProbes" index="5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00137687, 5.42658, 55.2749)
+size = Vector3(10.9709, 10.4995, 33.9733)
+
 [node name="LightmapGI" type="LightmapGI" parent="."]
 quality = 2
 bounces = 4
 bounce_indirect_energy = 1.2
+interior = true
 environment_mode = 0
 camera_attributes = ExtResource("2_vmbrv")
 generate_probes_subdiv = 4
@@ -22,3 +75,21 @@ light_data = ExtResource("3_vjuhf")
 transform = Transform3D(-0.865219, -0.171861, 0.471018, 0, 0.939421, 0.342768, -0.501393, 0.296569, -0.812805, 4.58229, 10.8498, -8.07855)
 current = true
 script = ExtResource("4_fwhhs")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.74469, 72.8823)
+use_collision = true
+size = Vector3(30.3242, 14.4894, 1)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -5.98336, 6.74469, 72.8823)
+use_collision = true
+size = Vector3(30.3242, 14.4894, 1)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 6.09403, 6.74469, 72.8823)
+use_collision = true
+size = Vector3(30.3242, 14.4894, 1)
+
+[editable path="Node3D"]
+[editable path="Node3D/SunTemple"]

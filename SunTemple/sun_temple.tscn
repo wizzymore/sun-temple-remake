@@ -6,7 +6,7 @@
 [node name="SunTemple" instance=ExtResource("1_1t71f")]
 
 [node name="pointLight12" parent="group1" index="0"]
-light_intensity_lumens = 10000.0
+light_intensity_lumens = 100000.0
 light_color = Color(1, 0.61599, 0.445313, 1)
 light_energy = 1.0
 light_indirect_energy = 6.943
@@ -14,7 +14,7 @@ light_volumetric_fog_energy = 0.0
 light_bake_mode = 1
 
 [node name="pointLight11" parent="group1" index="1"]
-light_intensity_lumens = 10000.0
+light_intensity_lumens = 100000.0
 light_color = Color(1, 0.61599, 0.445313, 1)
 light_energy = 1.0
 light_indirect_energy = 6.943
@@ -22,7 +22,7 @@ light_volumetric_fog_energy = 0.0
 light_bake_mode = 1
 
 [node name="pointLight10" parent="group1" index="2"]
-light_intensity_lumens = 10000.0
+light_intensity_lumens = 100000.0
 light_color = Color(1, 0.61599, 0.445313, 1)
 light_energy = 1.0
 light_indirect_energy = 6.943
@@ -30,7 +30,7 @@ light_volumetric_fog_energy = 0.0
 light_bake_mode = 1
 
 [node name="pointLight9" parent="group1" index="3"]
-light_intensity_lumens = 10000.0
+light_intensity_lumens = 100000.0
 light_color = Color(1, 0.61599, 0.445313, 1)
 light_energy = 1.0
 light_indirect_energy = 6.943
@@ -38,7 +38,7 @@ light_volumetric_fog_energy = 0.0
 light_bake_mode = 1
 
 [node name="pointLight8" parent="group1" index="4"]
-light_intensity_lumens = 10000.0
+light_intensity_lumens = 100000.0
 light_color = Color(1, 0.61599, 0.445313, 1)
 light_energy = 1.0
 light_indirect_energy = 6.943
@@ -46,7 +46,7 @@ light_volumetric_fog_energy = 0.0
 light_bake_mode = 1
 
 [node name="pointLight7" parent="group1" index="5"]
-light_intensity_lumens = 10000.0
+light_intensity_lumens = 100000.0
 light_color = Color(1, 0.61599, 0.445313, 1)
 light_energy = 1.0
 light_indirect_energy = 6.943
@@ -54,7 +54,7 @@ light_volumetric_fog_energy = 0.0
 light_bake_mode = 1
 
 [node name="pointLight6" parent="group1" index="6"]
-light_intensity_lumens = 10000.0
+light_intensity_lumens = 100000.0
 light_color = Color(1, 0.61599, 0.445313, 1)
 light_energy = 1.0
 light_indirect_energy = 6.943
@@ -62,7 +62,7 @@ light_volumetric_fog_energy = 0.0
 light_bake_mode = 1
 
 [node name="pointLight5" parent="group1" index="7"]
-light_intensity_lumens = 10000.0
+light_intensity_lumens = 100000.0
 light_color = Color(1, 0.61599, 0.445313, 1)
 light_energy = 1.0
 light_indirect_energy = 6.943
@@ -70,7 +70,7 @@ light_volumetric_fog_energy = 0.0
 light_bake_mode = 1
 
 [node name="pointLight4" parent="group1" index="8"]
-light_intensity_lumens = 10000.0
+light_intensity_lumens = 100000.0
 light_color = Color(1, 0.61599, 0.445313, 1)
 light_energy = 1.0
 light_indirect_energy = 6.943
@@ -78,7 +78,7 @@ light_volumetric_fog_energy = 0.0
 light_bake_mode = 1
 
 [node name="pointLight3" parent="group1" index="9"]
-light_intensity_lumens = 10000.0
+light_intensity_lumens = 100000.0
 light_color = Color(1, 0.61599, 0.445313, 1)
 light_energy = 1.0
 light_indirect_energy = 6.943
@@ -86,7 +86,7 @@ light_volumetric_fog_energy = 0.0
 light_bake_mode = 1
 
 [node name="pointLight2" parent="group1" index="10"]
-light_intensity_lumens = 10000.0
+light_intensity_lumens = 100000.0
 light_color = Color(1, 0.61599, 0.445313, 1)
 light_energy = 1.0
 light_indirect_energy = 6.943
@@ -94,7 +94,7 @@ light_volumetric_fog_energy = 0.0
 light_bake_mode = 1
 
 [node name="pointLight1" parent="group1" index="11"]
-light_intensity_lumens = 10000.0
+light_intensity_lumens = 100000.0
 light_color = Color(1, 0.61599, 0.445313, 1)
 light_energy = 1.0
 light_indirect_energy = 6.943

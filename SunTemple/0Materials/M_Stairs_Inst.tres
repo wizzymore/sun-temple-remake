@@ -1,0 +1,13 @@
+[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://tw5jmyywd04q"]
+
+[ext_resource type="Shader" uid="uid://dh6ot6jfmujre" path="res://test/ShaderMaterialVisual.tres" id="1_ynec6"]
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_Stairs_Inst_0_BaseColor.dds" id="2_32t7t"]
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_Stairs_Inst_0_Normal.dds" id="3_6eryf"]
+[ext_resource type="Texture2D" path="res://SunTemple/Textures/M_Stairs_Inst_0_Specular.dds" id="4_n62kp"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_ynec6")
+shader_parameter/Albedo = ExtResource("2_32t7t")
+shader_parameter/SpecularMap = ExtResource("4_n62kp")
+shader_parameter/Normal = ExtResource("3_6eryf")
